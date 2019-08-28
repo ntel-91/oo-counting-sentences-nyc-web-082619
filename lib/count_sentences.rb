@@ -23,6 +23,6 @@ class String
   end
 end
 
-test = String.new 
-test = "Hello.. I am here, I am here, I am here. Are you there?? Talk to me!!"
-puts test.count_sentence
+# test = String.new 
+# test = "Hello.. I am here, I am here, I am here. Are you there?? Talk to me!!"
+# puts test.count_sentence
