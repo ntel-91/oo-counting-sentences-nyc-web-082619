@@ -16,7 +16,7 @@ class String
 
   def count_sentence
     self.split(" ").count do |word|
-      word.sentence? || word.question? || word.exclamation?
+      word.sentence?
     end
     
   end
