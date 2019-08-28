@@ -15,9 +15,7 @@ class String
   end
 
   def count_sentences
-    a = self.count(".")
-    b = self.count("!")
-    c = self.count("?")
-    (a + b + c)
+    
+    
   end
 end
