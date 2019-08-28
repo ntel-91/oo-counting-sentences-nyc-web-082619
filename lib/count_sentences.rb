@@ -23,5 +23,5 @@ class String
 end
 
 test = String.new 
-test = "Hello. I am here. Are you there?"
+test = "Hello. I am here. Are you there?? Talk to me!!"
 puts test.count_sentence
