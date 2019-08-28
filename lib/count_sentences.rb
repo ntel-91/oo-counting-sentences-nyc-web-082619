@@ -16,7 +16,7 @@ class String
 
   def count_sentences(sent)
     sent.split(" ").count do |word|
-      sentence? || question? || exclamation?
+      word.sentence? || word.question? || word.exclamation?
     end
     
   end
