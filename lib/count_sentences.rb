@@ -14,7 +14,7 @@ class String
     self.end_with?("!")
   end
 
-  def count_sentences(sent)
+  def count_sentence
     sent.split(" ").count do |word|
       word.sentence? || word.question? || word.exclamation?
     end
